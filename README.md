@@ -17,7 +17,7 @@ RFAnalytics.startSession();
 ```
 * On your main activity’s onStop() method, add this line of code -
 ```java
-RFAnalytics.stopSession();
+RFAnalytics.endSession();
 ```
 That's it.
 
